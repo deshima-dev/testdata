@@ -18,3 +18,4 @@ Public DESHIMA datasets for testing related codes
 | `cosmos/cosmos_<log ID>` | Series of raw data and logs of DESHIMA and ASTE
 | `ddb/ddb_20180619.fits.gz` | DESHIMA database (DDB) compiled on June 19, 2018
 | `dfits/dfits_<log ID>.fits.gz` | Merged DESHIMA FITS (DFITS) created by [dmerge:1.0.0](https://github.com/deshima-dev/dmerge/releases/tag/v1.0.0)
+| `dems/dems_<log ID>.nc.gz` | Merged DESHIMA Measurement Set (DEMS) created by [dmerge:2.0.0](https://github.com/deshima-dev/dmerge/releases/tag/v2.0.0)
