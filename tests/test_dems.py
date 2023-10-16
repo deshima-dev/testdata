@@ -3,7 +3,7 @@ from pathlib import Path
 
 
 # dependencies
-from astropy.io import fits
+import xarray as xr
 from pytest import mark
 
 
@@ -16,5 +16,4 @@ DEMS_ALL = list(DEMS_DIR.glob("*.nc.gz"))
 @mark.parametrize("dems", DEMS_ALL)
 def test_open(dems: Path) -> None:
     """Test existence and opening of DEMSs."""
-    with fits.open(dems):
-        pass
+    xr.open_dataarray(dems)
