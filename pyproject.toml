@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "testdata"
-version = "1.0.0"
+version = "2.0.0"
 description = "Public DESHIMA datasets for testing related codes"
 authors = ["Akio Taniguchi <taniguchi@a.phys.nagoya-u.ac.jp>"]
 license = "MIT"
