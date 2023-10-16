@@ -1,6 +1,6 @@
 {
     "name": "testdata",
-    "image":"python:3.9",
+    "image":"python:3.11",
     "onCreateCommand": "pip install poetry==1.6.1",
     "postCreateCommand": "poetry install",
     "containerEnv": {
@@ -24,6 +24,7 @@
                     "editor.formatOnSave": true,
                     "editor.insertSpaces": true,
                     "editor.tabSize": 4
+                }
             }
         }
     }
