@@ -4,13 +4,13 @@ on:
   push:
     branches:
       - main
-      - v1
-      - v2
+      - deshima1.0
+      - deshima2.0
   pull_request:
     branches:
       - main
-      - v1
-      - v2
+      - deshima1.0
+      - deshima2.0
 
 jobs:
   job:
